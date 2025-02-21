@@ -1,4 +1,4 @@
-var Libpq = require('libpq')
+var Libpq = require('@kingdanx/libpq')
 var EventEmitter = require('events').EventEmitter
 var util = require('util')
 var assert = require('assert')

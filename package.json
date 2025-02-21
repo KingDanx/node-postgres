@@ -1,5 +1,5 @@
 {
-  "name": "node-postgres",
+  "name": "@kingdanx/node-postgres",
   "description": "node postgres monorepo",
   "main": "index.js",
   "private": true,

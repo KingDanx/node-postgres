@@ -7,6 +7,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.2.7",
+    "@types/glob": "^8.1.0",
     "@types/mocha": "^10.0.7",
     "@types/node": "^12.12.21",
     "chai": "^4.2.0",
@@ -30,5 +31,8 @@
   "files": [
     "/dist/*{js,ts,map}",
     "/src"
-  ]
+  ],
+  "dependencies": {
+    "minimatch": "^5.1.6"
+  }
 }
