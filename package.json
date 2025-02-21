@@ -21,6 +21,9 @@
     "prepublish": "yarn build",
     "lint": "eslint --cache 'packages/**/*.{js,ts,tsx}'"
   },
+  "dependencies": {
+    "@kingdanx/libpq": "1.8.14"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^6.17.0",
@@ -39,5 +42,5 @@
     "trailingComma": "es5",
     "singleQuote": true
   },
-  "version": "0.0.3"
+  "version": "0.0.4"
 }

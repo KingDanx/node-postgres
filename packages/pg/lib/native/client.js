@@ -4,7 +4,7 @@
 var Native
 try {
   // Wrap this `require()` in a try-catch to avoid upstream bundlers from complaining that this might not be available since it is an optional import
-  Native = require('pg-native')
+  Native = require('../../../pg-native/index')
 } catch (e) {
   throw e
 }
