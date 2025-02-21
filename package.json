@@ -1,7 +1,7 @@
 {
   "name": "@kingdanx/node-postgres",
   "description": "node postgres monorepo",
-  "main": "index.js",
+  "main": "packages/pg/lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/brianc/node-postgres.git"
@@ -39,5 +39,5 @@
     "trailingComma": "es5",
     "singleQuote": true
   },
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
