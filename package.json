@@ -2,8 +2,10 @@
   "name": "@kingdanx/node-postgres",
   "description": "node postgres monorepo",
   "main": "index.js",
-  "private": true,
-  "repository": "git@github.com:brianc/node-postgres.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/brianc/node-postgres.git"
+  },
   "author": "Brian M. Carlson <brian.m.carlson@gmail.com>",
   "license": "MIT",
   "workspaces": [
@@ -36,5 +38,6 @@
     "arrowParens": "always",
     "trailingComma": "es5",
     "singleQuote": true
-  }
+  },
+  "version": "0.0.2"
 }
